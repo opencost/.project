@@ -1,0 +1,72 @@
+# .project metadata for OpenCost
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "opencost"
+name: "OpenCost"
+description: "OpenCost provides visibility into current and historical Kubernetes spend and resource allocation."
+type: "project"
+project_lead: "AjayTripathy" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#opencost"
+    link: "https://slack.cncf.io/"
+    primary: true
+
+maturity_log:
+  - phase: "incubating"
+    date: "2022-06-17T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/220" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/opencost/opencost"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://www.opencost.io/"
+
+artwork: "https://landscape.cncf.io/logos/opencost.svg"
+
+adopters:
+  path: "https://github.com/opencost/opencost/blob/develop/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "opencost/opencost"
+
+social:
+  twitter: "https://twitter.com/open_cost"
+
+security:
+  policy:
+    path: "https://github.com/opencost/opencost/blob/develop/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/opencost/opencost/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/opencost/opencost/blob/develop/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/opencost/opencost/blob/develop/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/opencost/opencost/blob/develop/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/opencost/opencost/blob/develop/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Continuous Optimization"
+
+# CLOMonitor Score: 75/100
+# Documentation: 97 | License: 75 | Best Practices: 68 | Security: 68
